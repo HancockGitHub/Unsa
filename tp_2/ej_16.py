@@ -9,11 +9,11 @@ for i in range(k):
     N.append(lista)
 print("la lista ingresada es: ", N)
 for numero in N:
-    if lista > 0:
+    if numero > 0:
         sum_positivos += numero
 
     else:
-        sum_negativos += abs(numero)
+        sum_negativos += numero
 prom_positivos = sum_positivos/k
 print(prom_positivos)
 print(sum_negativos)
